@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(100px);
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.glass {
+  background: rgba(255, 255, 255, 0.24);
+  min-height: 80vh;
+  width: 60%;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.185);
+}
+.kl {
+  height: 500px;
+  width: 400px;
+  background-color: rgba(209, 209, 209, 0.384);
+  margin: 10px;
+  border-radius: 20px;
+  z-index: -1;
+  position: absolute;
+}
+.header {
+  padding-left: 20px;
+  margin-top: 60px;
+
+  font-family: OCR A;
+  color: rgb(243, 243, 243);
+  font-size: 30px;
+  position: absolute;
+}
+.heh {
+  padding-left: 20px;
+  margin-top: 40px;
+  font-family: OCR A;
+  color: rgba(243, 243, 243, 0.836);
+  font-size: 20px;
+  cursor: help;
+}
+.para {
+  padding-left: 20px;
+  margin-top: 165px;
+  font-family: OCR A;
+  color: rgba(243, 243, 243, 0.836);
+  font-size: 20px;
+}
+.social {
+  padding-left: 150px;
+  margin-top: 410px;
+  position: absolute;
+}
+.s_header {
+  font-family: OCR A;
+  color: rgba(243, 243, 243, 0.986);
+  font-size: 16px;
+}
+.logo {
+  width: 25px;
+  height: 25px;
+}
+.signup {
+  margin-left: 450px;
+  padding-top: 20px;
+  font-family: OCR A;
+  color: rgba(243, 243, 243, 0.836);
+  font-size: 20px;
+}
+.in {
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.4);
+  width: 300px;
+  height: 30px;
+  border: inherit;
+  font-family: OCR A;
+  transition: 0.3s;
+}
+.in:hover {
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.116);
+  color: #ffffff;
+  border-radius: 5px;
+}
+#submit {
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.116);
+  color: #ffffff;
+  border: inherit;
+  width: 300px;
+  height: 30px;
+  font-family: OCR A;
+}
+#submit:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #30c455;
+  border-radius: 20px;
+}
+.signinlink {
+  text-decoration: none;
+  color: #5fbd77;
+  margin-top: 1px;
+}
